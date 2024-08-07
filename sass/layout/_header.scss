@@ -1,0 +1,33 @@
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 15px 0 15px;
+
+      &__logo {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+      }
+
+      &__adl-txt {
+          padding-left: 10px;
+      }
+
+      &__logo-img {
+          height: 50px;
+          border-radius: 10px;
+      }
+  }
+
+  .nav-container {
+      gap: 20px;
+
+      a {
+          padding-right: 20px;
+          text-decoration: none;
+          color: $black;
+      }
+  }

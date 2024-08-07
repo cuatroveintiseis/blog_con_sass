@@ -1,0 +1,17 @@
+.post-content {
+    padding: 20px;
+    max-width: auto;
+    background-color: $gray;
+    text-align: justify;
+  }
+  
+  .post-img {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .post-img img {
+    border-radius: 20px;
+    display: inline-block;
+  }

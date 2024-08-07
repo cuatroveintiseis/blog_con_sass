@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    &__adl-txt {
+        padding-left: 10px;
+    }
+
+    &__logo-img {
+        height: 50px;
+        border-radius: 10px;
+    }
+}
+
+.footer p {
+    color: $graydark;
+}

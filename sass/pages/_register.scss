@@ -1,0 +1,18 @@
+.registration {
+    &__main{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form__registro{
+        width: auto;
+        background-color: $white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

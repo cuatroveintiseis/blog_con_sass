@@ -1,0 +1,20 @@
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/section';
+@import 'layout/novedades';
+
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/forms';
+@import 'components/posts';
+@import 'components/subscription';
+@import 'components/tags';
+
+@import 'pages/posts-details';
+@import 'pages/register';

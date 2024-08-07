@@ -1,0 +1,68 @@
+.tags__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container__tags {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tags {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    align-items: center;
+
+    &__txt {
+        font-size: 16px;
+        font-weight: light;
+        color: #292C33;
+    
+    }
+
+    &__img {
+        height: 50px;
+        width: 50px;
+    }
+
+}
+
+/* Modificadores de color de fondo */
+
+.tags__item{
+
+&--html {
+    background-color: rgb(255, 0, 0);
+}
+
+&--css {
+    background-color: #299ED5;
+}
+
+&--js {
+    background-color: #F7E018;
+}
+
+&--bs {
+    background-color: #563D7C;
+
+}
+
+&--vue {
+    background-color: #67C770;
+}
+
+&--react {
+    background-color: #292C33;
+}
+}

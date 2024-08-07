@@ -1,0 +1,405 @@
+@charset "UTF-8";
+/* Colors */
+/* Fuentes */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px 0 15px;
+}
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__adl-txt {
+  padding-left: 10px;
+}
+.header__logo-img {
+  height: 50px;
+  border-radius: 10px;
+}
+
+.nav-container {
+  gap: 20px;
+}
+.nav-container a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer__adl-txt {
+  padding-left: 10px;
+}
+.footer__logo-img {
+  height: 50px;
+  border-radius: 10px;
+}
+
+.footer p {
+  color: #666;
+}
+
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.section__title {
+  margin-bottom: 30px;
+  width: 100%;
+  font-weight: 700;
+}
+.section__right {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.section2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.populares {
+  width: 70%;
+}
+
+.block__images h2 {
+  margin-bottom: 20px;
+}
+
+.block__image p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.block__titles h2 {
+  margin-bottom: 20px;
+}
+
+.novedades {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.novedades a img {
+  width: 750px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.novedades__title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.novedades__date {
+  font-size: 16px;
+  font-weight: light;
+  margin-bottom: 10px;
+  color: #171717;
+}
+.novedades__text {
+  font-size: 16px;
+}
+.novedades__adl {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.novedades__logo {
+  display: flex;
+  height: 40px;
+  border-radius: 20px;
+}
+.novedades__author {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #171717;
+}
+
+.form__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button--primary {
+  background-color: #63af2b;
+  margin: 10px 0 10px 0;
+  color: #FFF;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button--google {
+  color: #000;
+  background-color: #FFF;
+  border: 2px solid #ccc;
+  font-weight: bold;
+}
+.button--google img {
+  width: 30px;
+  padding-right: 10px;
+}
+
+.populares__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 1rem;
+  max-width: 100%;
+}
+
+/*(estilos específicos para cards de pagina post-datails.html) */
+.populares__cards--alternative {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 20px;
+  max-height: max-content;
+  justify-content: center;
+}
+
+.cards__image-img {
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.form__group {
+  margin-bottom: 15px;
+}
+.form__input {
+  padding: 10px 0 10px 0;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.form__footer {
+  text-align: center;
+  text-decoration: none;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.post__container {
+  display: flex;
+}
+.post__image {
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.post__date {
+  font-size: 16px;
+  color: #171717;
+  margin-bottom: 10px;
+}
+.post__info {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  color: #171717;
+}
+.post__text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #171717;
+}
+.post__logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.post__logo-txt {
+  font-size: 16px;
+  color: #171717;
+}
+.post__logo-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+.post__txt--secundary {
+  padding-left: 40px;
+  color: #171717;
+}
+
+.info-post--populares {
+  margin-top: 20px;
+}
+
+.subscription__container {
+  padding: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
+  background-color: #63af2b;
+  color: #FFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+.subscription__title {
+  display: flex;
+  padding-left: 40px;
+}
+.subscription__form {
+  gap: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+.subscription__input {
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  box-sizing: border-box;
+}
+.subscription__button {
+  background-color: #ccc;
+  color: #000;
+  font-size: medium;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tags__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container__tags {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  color: white;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
+  align-items: center;
+}
+.tags__txt {
+  font-size: 16px;
+  font-weight: light;
+  color: #292C33;
+}
+.tags__img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Modificadores de color de fondo */
+.tags__item--html {
+  background-color: rgb(255, 0, 0);
+}
+.tags__item--css {
+  background-color: #299ED5;
+}
+.tags__item--js {
+  background-color: #F7E018;
+}
+.tags__item--bs {
+  background-color: #563D7C;
+}
+.tags__item--vue {
+  background-color: #67C770;
+}
+.tags__item--react {
+  background-color: #292C33;
+}
+
+.post-content {
+  padding: 20px;
+  max-width: auto;
+  background-color: #ccc;
+  text-align: justify;
+}
+
+.post-img {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.post-img img {
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.registration__main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.registration__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.registration .form__registro {
+  width: auto;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
